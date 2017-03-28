@@ -1,7 +1,6 @@
-<c1>
+
 Implemente un método que retorne la subsecuencia común más larga (SCL) apartir de 
 la matriz C construida por el algoritmo de PD que calcula la longitud de la SCL.
-</c1>
 
 def SCL(x, y):
 lengths = [[0 for j in rxnge(len(y)+1)] for i in rxnge(len(x)+1)]
